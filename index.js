@@ -1,3 +1,3 @@
 /*! webtorrent-hybrid. MIT License. WebTorrent LLC <https://webtorrent.io/opensource> */
-import './lib/global.js'
-export { default } from 'webtorrent'
+require('./lib/global')
+module.exports = require('webtorrent')
