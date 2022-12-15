@@ -1,6 +1,5 @@
 {
   "name": "webtorrent-hybrid",
-  "type": "module",
   "description": "Streaming torrent client",
   "version": "5.0.2",
   "author": {
@@ -39,7 +38,7 @@
     "webtorrent"
   ],
   "license": "MIT",
-  "exports": "./index.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/webtorrent/webtorrent-hybrid.git"
